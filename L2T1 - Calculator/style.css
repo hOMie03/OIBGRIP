@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Rampart+One&display=swap');
+
+body {
+	background-color: #F5F5F5;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+    font-size: 540%;
+    text-align: center;
+	font-family: 'Rampart One', cursive;
+}
+
+.calculator {
+	background-color: #333;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+	margin: 100px auto;
+	max-width: 320px;
+}
+
+.display {
+	background-color: #000;
+	border-radius: 10px 10px 0 0;
+	padding: 10px;
+	text-align: right;
+}
+
+.display input {
+	background-color: transparent;
+	border: none;
+	color: #FFF;
+	font-size: 28px;
+	height: 50px;
+	text-align: right;
+	width: 100%;
+}
+
+.buttons {
+	display: grid;
+	grid-gap: 1px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+	background-color: #FFF;
+	border: none;
+	color: #333;
+	font-size: 24px;
+	height: 50px;
+	outline: none;
+	text-align: center;
+	transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+	background-color: #333;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.operator {
+	background-color: #EE9C31;
+	color: #FFF;
+}
